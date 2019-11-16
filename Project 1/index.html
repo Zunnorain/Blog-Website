@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Grade</title>
+</head>
+
+<body>
+<li><a href="About.html">About Me</a></li>
+<li><a href="Introduction.html">Home</a></li>
+<li><a href="Main.html">Main Blog</a></li>
+<li><a href="Login.html">Register</a></li>
+<h1>Check Your Result</h1>
+<script>
+function grade(){
+	var mark = document.forms.result.marks.value;
+	if(marks<50){
+		window.alert("You Failed!");
+	}
+	else{
+		window.alert("You Passed!");
+	}
+}
+</script>
+<form name="result on submit = " "grade()">
+<input type="text" name="marks" placeholder="Enter Your Marks" />
+
+<input type="button" name="submit" value="Submit" onclick="grade()"  show />
+<ul type="square">
+<li>Hello</li>
+<li>Nigga</li>
+</ul>
+<ol type="i">
+<li>bitch</li>
+<li>Bottom</li>
+</ol>
+
+<p id="datetime"></p>
+<button type="button" onclick="document.getElementById('datetime').innerHTML=Date();">Show Date</button>
+
+
+
+
+
+
+
+</body>
+</html>

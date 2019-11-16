@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Register Page</title>
+<link type="text/css" rel="stylesheet" href="../CSS/style.css"/>
+</head>
+
+<body>
+<a href="Introduction.html"><h2>Back Home</h2></a>
+<br />
+<h3>Register To Login</h3>
+<form action="yolo.php" method="get">
+<label>First Name:</label>
+<input type="text" name="first_name" placeholder="Enter Name" />
+<label>Password:</label>
+<input type="password" name="user_pass" placeholder="Enter Password" />
+<br />
+<br />
+<label>Date Of Birth</label>
+<input type="date" name="date_of_birth" />
+</form>
+<br />
+<label>Email Address:</label>
+<input type="email" name="email_address" placeholder="eg:123@gmail.com" />
+<br />
+<br />
+Select City:
+<select name="select">
+  <option>Select</option>
+  <option>ISB</option>
+  <option>LHR</option>
+  <option>RWP</option>
+</select>
+<br />
+<br />
+<label>Gender:</label>
+<br />
+<form action="">
+<ul>
+<li><input type="radio" name="gender" />Male</li>
+<li><input type="radio" name="gender" />Female</li>
+<li><input type="radio" name="gender" />Robot</li>
+</ul>
+</form>
+<br />
+<br />
+<input type="submit" onclick="show()" value="Submit" id="button1"  />
+</form>
+<br />
+<br />
+<br />
+<textarea rows="10" cols="50" placeholder="Comment"></textarea>
+
+<div id="main-area">
+<h1> Death to the Imposters!</h1>
+</div>
+
+<script>
+function display(){
+	document.write;
+	window.alert("Hella Hoes");
+}
+function show(){
+	document.write;
+	window.alert("You Have Been Sent An Email!");
+}
+</script>
+
+<button type="button" onclick="display()" show>Click Here</button>
+
+</body>
+</html>

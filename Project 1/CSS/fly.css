@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+}
+header{
+	background-image:url(../Images/Rock_Cottage_Sunset.jpg);
+	height:100vh;
+	background-size:cover;
+	background-position:center;
+}
+
+
+p{
+	font-size:18px;
+	color:#000;
+}
+h1{
+	font-family:"Courier New", Courier, monospace;
+	color:#0FF;
+	//float:none;
+	//position:absolute;
+	//left:300px;
+}
+
+ul{
+	list-style-type:none;
+	float:left;
+	margin:0;
+	padding:0;
+}
+ul li{
+	display:inline-block;
+}
+ul li a{
+	text-decoration:none;
+	color:#3FC;
+	padding:0.5px 20px;
+	border:2px solid #CCC;
+	transition:0.9s ease;
+}
+ul li a:hover{
+	background-color:#0FC;
+	color:#FFF;
+}
+#text{
+	width:1520px;
+	margin-left:auto;
+	margin-right:auto;
+}
+hr{
+	color:#000;
+}

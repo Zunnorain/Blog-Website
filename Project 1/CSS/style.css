@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#CFF;
+	background-repeat:no-repeat;
+	
+}
+#button1{
+	padding:10px;
+	background-color:#0F0;
+	font-size:14px;
+	font-family:"MS Serif", "New York", serif;
+	border-radius:50px;
+	font-weight:bold;
+	transition:background-color 1s ease 0s;
+}
+#button1:hover{
+	background-color:#FF0;
+}
+
+ul{
+	list-style-type:none;
+	float:left;
+	margin:0;
+	padding:0;
+}
+ul li{
+	display:inline-block;
+}
+ul li a{
+	//text-decoration:none;
+	color:#FFF;
+	padding:5px 20px;
+	//border:1px solid #FFF;
+	transition: 0.9s ease;
+	
+}
